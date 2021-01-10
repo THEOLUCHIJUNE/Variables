@@ -6,19 +6,28 @@ namespace Variables
     {
         static void Main(string[] args)
         {
-            string FirstName = "";
-            string LastName = "";
-            int Age = 0;
+            string FirstName;
+            FirstName = "Oluchi";
+            Console.WriteLine(FirstName);
 
-            Console.Write("Please enter your first name: ");
-            FirstName = Console.ReadLine();
+            string LastName;
+            LastName = "Ifeanyi";
+            Console.WriteLine(LastName);
 
-            Console.WriteLine("Hello" + FirstName);
+            int Age;
+            Age = 58;
+            Console.WriteLine(Age);
+
+            string Name = ""; 
+            Console.Write("Please enter your name: ");
+            Name = Console.ReadLine();
+            Console.WriteLine("Hello, " +  Name +  ". My name is Oluchi June Ifeanyi.");
             
-            Console.Write("Please enter your last name: ");
-            LastName = Console.ReadLine();
+            string BestFood = "";
+            Console.Write("Please enter your best food: ");
+            BestFood = Console.ReadLine();
+            Console.WriteLine("Hello, "  + Name +  ". It is interesting that your best food is "  + BestFood +  ". Mine is Agege Bread and Agoyin Beans. :-)" );
 
-            Console.WriteLine("Hello" + LastName);
         }
     }
 }
